@@ -1,0 +1,115 @@
+[
+    {
+        "name": "php-curl-class/php-curl-class",
+        "version": "6.0.0",
+        "version_normalized": "6.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-curl-class/php-curl-class.git",
+            "reference": "2e08fc596acb5f9a15ae746dfedd6673134c8cad"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-curl-class/php-curl-class/zipball/2e08fc596acb5f9a15ae746dfedd6673134c8cad",
+            "reference": "2e08fc596acb5f9a15ae746dfedd6673134c8cad",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "php": ">=5.3"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "*"
+        },
+        "time": "2016-09-03T00:18:01+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Curl\\": "src/Curl/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Unlicense"
+        ],
+        "authors": [
+            {
+                "name": "Zach Borboa"
+            }
+        ],
+        "description": "PHP Curl Class is an object-oriented wrapper of the PHP cURL extension.",
+        "homepage": "https://github.com/php-curl-class/php-curl-class",
+        "keywords": [
+            "api",
+            "class",
+            "client",
+            "curl",
+            "framework",
+            "http",
+            "http client",
+            "json",
+            "php",
+            "requests",
+            "rest",
+            "restful",
+            "web service",
+            "xml"
+        ]
+    },
+    {
+        "name": "jp3cki/docomo-dialogue",
+        "version": "v1.2.2",
+        "version_normalized": "1.2.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/fetus-hina/docomo-dialogue.git",
+            "reference": "cf985fdc93c09f93181081038eccd1d2dbb3f08c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/fetus-hina/docomo-dialogue/zipball/cf985fdc93c09f93181081038eccd1d2dbb3f08c",
+            "reference": "cf985fdc93c09f93181081038eccd1d2dbb3f08c",
+            "shasum": ""
+        },
+        "require": {
+            "ext-intl": "*",
+            "ext-mbstring": "*",
+            "ext-pcre": "*",
+            "php": ">=5.4.0",
+            "php-curl-class/php-curl-class": "^6.0"
+        },
+        "require-dev": {
+            "apigen/apigen": "^4.1",
+            "codeclimate/php-test-reporter": "dev-master",
+            "phpmd/phpmd": "^2.2",
+            "phpunit/phpunit": "^4.8|^5.5",
+            "squizlabs/php_codesniffer": "^2.3"
+        },
+        "time": "2016-09-17T20:19:27+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "jp3cki\\docomoDialogue\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "AIZAWA Hina",
+                "email": "hina@bouhime.com"
+            }
+        ],
+        "description": "Wrapper for dialogue API by NTT docomo.",
+        "keywords": [
+            "api",
+            "dialogue",
+            "docomo",
+            "rest"
+        ]
+    }
+]
